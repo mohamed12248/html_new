@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body background=" red ">
+    <form action="" method="get">
+
+        <h1>شركة فيصل الهاتف</h1><br>
+        <div>
+            <label> <mark>ادخل اسمك من فضلك </mark></label><br>
+            <input type="text" required name="nm" placeholder="اسمك" autofocus><br>
+        </div>
+        <div>
+            <label><mark>ادخل كلمة المرورالخاصة بك</mark></label><br>
+            <input type="password" required name="psss" maxlength="20" minlength="5"><br>
+        </div>
+        <div>
+            <labe><mark>ادخل بريدك الخاص </mark></label><br>
+                <input type="email" name="imillll" required placeholder="mohamed@gmil.com"> <br> <br>
+        </div>
+        <div>
+            <label for="nm"><mark>ادخل رقم هاتفك</mark></label><br>
+            <input type="text" name="number" id="nm" placeholder="099">
+        </div>
+        <div><label for="time"><mark>ادخل تاريخك
+
+                </mark> </label><br>
+            <input type="date" id="time " required><br>
+        </div>
+        <div>
+            <hr color="black" />
+            <p><mark>اختر نوع الاتصال </mark></p>
+            <input type="radio" value="fax" name="phone" id="fax" required />
+            <label for="fax">fax</label>
+        </div>
+        <div>
+
+            <input type="radio" value="phone" name="phone" id="phone" required />
+            <label for="phone">ارضي</label>
+        </div>
+        <hr>
+        <div>
+            <div>
+                <label><mark>اختر منتقتك</mark></label>
+            </div>
+            <input type="checkbox" value="moc" name="place" id="for">
+            <label for="for">مالكي</label>
+        </div>
+        <div>
+            <input type="checkbox" value="moc" name="place" id="mac">
+            <label for="mac">مشروع دمر</label>
+        </div>
+        <div>
+            <input type="checkbox" value="moc" name="place" id="kh">
+            <label for="kh">شعلان</label>
+        </div>
+        <div>
+            <input type="checkbox" value="moc" name="place" id="sy">
+            <label for="sy">جاحظ</label>
+        </div>
+        <div>
+            <input type="checkbox" value="moc" name="place" id="ba">
+            <label for="ba">دمر البلد</label>
+        </div><br>
+        <div><br>
+            <hr />
+            <select name="selection" id="selection" multiple>
+                <optgroup label="تحويلات "></optgroup>
+                <label for="selection"></label>
+                <option value="1">تعبة رصيد</option>
+                <option value="2">تحويل رصيد الى رقم اخر </option>
+                <option value="3">اعادة التعبة الى الرقم المحدد</option>
+                </optgroup>
+
+            </select> <br>
+            <p><mark>اكتب ملاحظانك</mark> </p>
+            <textarea name="text" cols="30" rows="10" placeholder="text"></textarea><br>
+            <label>ابحث عن الملومات </label><br>
+            <input type="search" name="search"><br><br>
+            <label for="informition">لا تنسى رابط الخاص بك الذي يحدد معلومات صفحتك</label><br>
+            <input type="url" id="informition" placeholder="url" required><br><br>
+            <p>حدد نوع جهازك</p>
+            <input list="device" name="dv"><br>
+            <datAlist id="device">
+                <OPtion value="IPHON">
+                <OPtion value="SUMSUNG">
+                <OPtion value="NOKI">
+                <OPtion value=" XOMIAI">
+                <OPtion value="HOWOWI">
+                <OPtion value="HONER">
+            </datalist><br>
+
+            <input type="submit" value="ارسال">
+            <input type="reset" value="مسح">
+            <button><a href="https://www.google.com">استسفار</a></button>
+        </div>
+
+
+    </form>
+</body>
+
+</html>
